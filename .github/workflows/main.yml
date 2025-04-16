@@ -36,4 +36,4 @@ jobs:
     if: github.ref != 'refs/heads/main'
     steps:
       - name: Skipping deploy
-        run: echo "Skipping deployment – not on main branch"
+        run: echo "Skipping deployment not on main branch"
